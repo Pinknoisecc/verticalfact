@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+
+
+
+
+/*NAVBAR*/
+
+
+.navbar-collapse{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+
+.nav-link{
+  color: white;
+}
+
+
+.navbar-nav .nav-link.active{
+  color: white;
+}
+
+.nav-item .nav-link:hover{
+  color: #D6CE03;
+}
+
+
+.navbar-toggler-icon {
+  background-color: #D6CE03;
+  color: white;
+}
+
+
+
+/*CAROUSEL*/
+
+.carousel-inner {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    border-image-slice: 1;
+}
+
+.carousel-item{
+        min-height: 100%;
+        background-size: cover;
+    }
+
+
+.card-img-overlay{
+  border: solid 10px black;
+  padding: 10px;
+}
+
+
+.logotipo{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  width: 36%;
+  opacity: 0.7;
+  border: solid 10px black;
+}
+
+.logo{
+  min-width: 36%;
+}
+
+
+
+/*CARDS*/
+
+.ajustecard{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card{
+  border: 0px;
+}
+
+
+/*FOOTER*/
+
+footer{
+  background-color: black;
+}
+
+.derechos{
+  color: white;
+}
+
+
+/*SECCIÓN CONTACTOS*/
+
+.bordeform, .raimbow-box{
+  max-width: 100%;
+  height: auto;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+  height: 100%px;
+  margin: 10px auto;
+  width: auto;
+}
